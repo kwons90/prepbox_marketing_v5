@@ -20,7 +20,7 @@ const Footer = () => {
                         <ul className={classes['footer__social-list']}>
                             <li>
                                 <a
-                                    href='https://www.instagram.com/'
+                                    href='https://www.instagram.com/prepboxmath'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
@@ -29,7 +29,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href='https://www.instagram.com/'
+                                    href='https://www.youtube.com/watch?v=ih3hNg5Y-4c'
                                     target='_blank'
                                     rel='noreferrer'
                                 >
@@ -38,7 +38,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href='https://www.instagram.com/'
+                                    href='https://www.linkedin.com/company/prepboxmath'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

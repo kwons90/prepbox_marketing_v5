@@ -9,13 +9,13 @@ const Hero = () => {
                     <div className={classes['hero__content-text']}>
                         <h1>About Us</h1>
                         <p>
-                            To build confidence and first-principled thinking in children through
-                            math.
-                        </p>
-                        <p>
                             We believe that math is an essential tool for success in life and aim to
                             equip children with the necessary skills and mindset to excel as
                             independent thinkers.
+                        </p>
+                        <p>
+                            This is why we started PrepBox -to fulfil fulfill our mission to build confidence and 
+                            first-principled thinking in children.
                         </p>
                     </div>
 

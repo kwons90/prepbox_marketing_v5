@@ -34,6 +34,7 @@ const PostDetail = ({ postId }) => {
                                     </div>
                                 );
                             })}
+                            <a href={post.link}><p>{post.link}</p></a>
                         </div>
                     </div>
                 ) : (
