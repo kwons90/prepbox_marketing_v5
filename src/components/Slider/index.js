@@ -30,7 +30,7 @@ const SliderComponent = () => {
                 />
                 <SliderItem
                     label='2'
-                    title='Watch our mini-lectures'
+                    title='Watch mini-lectures'
                     text='Learn core concepts through our short mini-lectures'
                     image={SliderImg2}
                 />
