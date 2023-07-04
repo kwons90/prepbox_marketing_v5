@@ -1,9 +1,9 @@
-import PostImage1 from './../assets/blog/1.svg';
-import PostImage2 from './../assets/blog/2.svg';
-import PostImage3 from './../assets/blog/3.svg';
-import PostImage4 from './../assets/blog/lunchrunch1.svg';
-import PostImage5 from './../assets/blog/floridaban.png';
-import PostImage6 from './../assets/blog/launch.svg';
+import PostImage1 from './../assets/blog/1.png';
+import PostImage2 from './../assets/blog/2.png';
+import PostImage3 from './../assets/blog/3.png';
+import PostImage4 from './../assets/blog/4.png';
+import PostImage5 from './../assets/blog/5.png';
+import PostImage6 from './../assets/blog/6.png';
 
 export const blogPosts = [
     {
