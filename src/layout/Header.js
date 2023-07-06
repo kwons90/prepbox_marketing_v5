@@ -156,14 +156,27 @@ const Header = () => {
                         </div>
 
                         {/* ============ Mobile Menu Button ============= */}
-                        <button
-                            className={`${classes.toggler} ${showMenu ? `${classes.open}` : ''}`}
-                            onClick={togglerMenuHandler}
-                        >
-                            <span className={classes['toggler__top']}></span>
-                            <span className={classes['toggler__middle']}></span>
-                            <span className={classes['toggler__bottom']}></span>
-                        </button>
+                        <div className={classes['toggler-container']}>
+                            <a
+                                href='https://prepboxfirstclass.paperform.co/'
+                                className={`${classes['header__button-try']} ${classes['header__button-try-sm']}`}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                Try for free
+                            </a>
+
+                            <button
+                                className={`${classes.toggler} ${
+                                    showMenu ? `${classes.open}` : ''
+                                }`}
+                                onClick={togglerMenuHandler}
+                            >
+                                <span className={classes['toggler__top']}></span>
+                                <span className={classes['toggler__middle']}></span>
+                                <span className={classes['toggler__bottom']}></span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </header>

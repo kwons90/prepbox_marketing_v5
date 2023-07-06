@@ -44,6 +44,10 @@ button {
     transition: all 0.25s;
     cursor: pointer;
 }
+button:focus {
+    outline: none;
+    box-shadow: unset;
+}
 
 h1 {
     font-size: 51px;
@@ -62,7 +66,6 @@ h3 {
     font-weight: 700;
     line-height: 1.4;
 }
-
 
 .container {
     max-width: 1264px;
