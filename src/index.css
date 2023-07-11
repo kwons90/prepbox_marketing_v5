@@ -67,6 +67,12 @@ h3 {
     line-height: 1.4;
 }
 
+.secondary-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
 .container {
     max-width: 1264px;
     width: 100%;
@@ -113,6 +119,9 @@ h3 {
 }
 
 @media (max-width: 1199.98px) {
+    .secondary-title {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -122,6 +131,10 @@ h3 {
 
     h2 {
         font-size: 38px;
+    }
+
+    .secondary-title {
+        font-size: 28px;
     }
 
     h3 {
@@ -136,6 +149,9 @@ h3 {
 
     h2 {
         font-size: 34px;
+    }
+    .secondary-title {
+        font-size: 26px;
     }
     .container {
         padding: 0 16px;
@@ -159,6 +175,9 @@ h3 {
     }
     h2 {
         font-size: 26px;
+    }
+    .secondary-title {
+        font-size: 24px;
     }
     h3 {
         font-size: 22px;
