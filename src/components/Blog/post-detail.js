@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { blogPosts } from '../../constant';
 import classes from './post-detail.module.css';
 
@@ -14,7 +15,13 @@ const PostDetail = ({ postId }) => {
                 {post ? (
                     <div className={classes['post__card']}>
                         <div className={classes['post__card-image']}>
-                            <img src={post.image} alt={post.title} />
+                            <LazyLoadImage
+                                src={post.image}
+                                alt={post.title}
+                                width='770'
+                                height='668'
+                                effect='blur'
+                            />
                         </div>
                         <div className={classes['post__card-body']}>
                             <h4>{post.date}</h4>
@@ -34,7 +41,9 @@ const PostDetail = ({ postId }) => {
                                     </div>
                                 );
                             })}
-                            <a href={post.link}><p>{post.link}</p></a>
+                            <a href={post.link}>
+                                <p>{post.link}</p>
+                            </a>
                         </div>
                     </div>
                 ) : (
@@ -44,7 +53,7 @@ const PostDetail = ({ postId }) => {
                             The blog post you are looking for might have been removed, had it's name
                             changed or is temporary unavailable.
                         </p>
-                        <button type='button' onClick={gotToBlogPage}>
+                        <button type='button' aria-label='Home Page' onClick={gotToBlogPage}>
                             Go to Blog page
                         </button>
                     </div>

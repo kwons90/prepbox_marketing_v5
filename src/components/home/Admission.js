@@ -1,8 +1,10 @@
-import Georgetown from './../../assets/images/georgetown.png';
-import Harvard from './../../assets/images/harvard.png';
-import Northwestern from './../../assets/images/northwestern.png';
-import Toronto from './../../assets/images/toronto.png';
-import Waterloo from './../../assets/images/waterloo.png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import Georgetown from './../../assets/images/png/georgetown.png';
+import Harvard from './../../assets/images/png/harvard.png';
+import Northwestern from './../../assets/images/png/northwestern.png';
+import Toronto from './../../assets/images/png/toronto.png';
+import Waterloo from './../../assets/images/png/waterloo.png';
 
 import classes from './Admission.module.css';
 
@@ -17,19 +19,49 @@ const Admission = () => {
 
                     <ul className={classes['admission__universities']}>
                         <li>
-                            <img src={Georgetown} alt='Georgetown University' />
+                            <LazyLoadImage
+                                src={Georgetown}
+                                width='135'
+                                height='40'
+                                alt='Georgetown University'
+                                effect='blur'
+                            />
                         </li>
                         <li>
-                            <img src={Harvard} alt='Harvard University' />
+                            <LazyLoadImage
+                                src={Harvard}
+                                width='135'
+                                height='40'
+                                alt='Harvard University'
+                                effect='blur'
+                            />
                         </li>
                         <li>
-                            <img src={Northwestern} alt='Northwestern University' />
+                            <LazyLoadImage
+                                src={Northwestern}
+                                width='135'
+                                height='40'
+                                alt='Northwestern University'
+                                effect='blur'
+                            />
                         </li>
                         <li>
-                            <img src={Toronto} alt='Toronto University' />
+                            <LazyLoadImage
+                                src={Toronto}
+                                width='135'
+                                height='40'
+                                alt='Toronto University'
+                                effect='blur'
+                            />
                         </li>
                         <li>
-                            <img src={Waterloo} alt='Waterloo University' />
+                            <LazyLoadImage
+                                src={Waterloo}
+                                width='135'
+                                height='40'
+                                alt='Waterloo University'
+                                effect='blur'
+                            />
                         </li>
                     </ul>
                 </div>

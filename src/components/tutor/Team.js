@@ -1,11 +1,12 @@
 import TeamCard from '../elements/team-card';
-import TeamImage1 from './../../assets/images/min-lee.png';
-import TeamImage2 from './../../assets/images/sam-kwon.png';
-import TeamImage3 from './../../assets/images/jina-seok.png';
-import TeamImage4 from './../../assets/images/aria-hwang.png';
-import TeamImage5 from './../../assets/images/payton-coutlis.png';
-import TeamImage6 from './../../assets/images/kyle-pearce.png';
-import TeamImage7 from './../../assets/images/sanghon-kim.png';
+
+import TeamImage1 from './../../assets/images/png/min-lee.png';
+import TeamImage2 from './../../assets/images/png/sam-kwon.png';
+import TeamImage3 from './../../assets/images/png/jina-seok.png';
+import TeamImage4 from './../../assets/images/png/aria-hwang.png';
+import TeamImage5 from './../../assets/images/png/payton-coutlis.png';
+import TeamImage6 from './../../assets/images/png/kyle-pearce.png';
+import TeamImage7 from './../../assets/images/png/sanghon-kim.png';
 
 import classes from './Team.module.css';
 
@@ -20,7 +21,7 @@ const Team = () => {
                         image={TeamImage1}
                         name='Min Lee '
                         description='Founder/CEO'
-                        experience= '20 years'
+                        experience='20 years'
                         almamater='University of Toronto'
                     />
 

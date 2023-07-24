@@ -1,7 +1,10 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import PrimaryButton from '../button/Primary-button';
-import Lgcse from './../../assets/images/lgcse.png';
-import IBLogo from './../../assets/images/ib.png';
-import APLogo from './../../assets/images/ap.png';
+import Lgcse from './../../assets/images/png/lgcse.png';
+import IBLogo from './../../assets/images/png/ib.png';
+import APLogo from './../../assets/images/png/ap.png';
+
 import classes from './Support.module.css';
 
 const Support = () => {
@@ -22,13 +25,31 @@ const Support = () => {
 
                         <div className={classes['support__logo']}>
                             <div className={classes['support__logo-item']}>
-                                <img src={Lgcse} alt='LGCSE logo' />
+                                <LazyLoadImage
+                                    src={Lgcse}
+                                    width='151'
+                                    height='151'
+                                    alt='LGCSE logo'
+                                    effect='blur'
+                                />
                             </div>
                             <div className={classes['support__logo-item']}>
-                                <img src={IBLogo} alt='IB logo' />
+                                <LazyLoadImage
+                                    src={IBLogo}
+                                    width='173'
+                                    height='171'
+                                    alt='IB logo'
+                                    effect='blur'
+                                />
                             </div>
                             <div className={classes['support__logo-item']}>
-                                <img src={APLogo} alt='AP logo' />
+                                <LazyLoadImage
+                                    src={APLogo}
+                                    width='350'
+                                    height='111'
+                                    alt='AP logo'
+                                    effect='blur'
+                                />
                             </div>
                         </div>
                     </div>

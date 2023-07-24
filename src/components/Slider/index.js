@@ -1,11 +1,12 @@
 import Slider from 'react-slick';
 import SliderItem from './Slider-item';
-import SliderImg1 from './../../assets/images/slider-1.png';
-import SliderImg2 from './../../assets/images/slider-2.png';
-import SliderImg3 from './../../assets/images/slider-3.png';
-import SliderImg4 from './../../assets/images/slider-4.png';
-import SliderImg5 from './../../assets/images/slider-5.png';
-import SliderImg6 from './../../assets/images/slider-6.png';
+
+import SliderImg1 from './../../assets/images/png/slider-1.png';
+import SliderImg2 from './../../assets/images/png/slider-2.png';
+import SliderImg3 from './../../assets/images/png/slider-3.png';
+import SliderImg4 from './../../assets/images/png/slider-4.png';
+import SliderImg5 from './../../assets/images/png/slider-5.png';
+import SliderImg6 from './../../assets/images/png/slider-6.png';
 
 const SliderComponent = () => {
     const settings = {

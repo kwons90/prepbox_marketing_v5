@@ -1,4 +1,6 @@
-import HeroImage from './../../assets/images/about-hero.png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import HeroImage from './../../assets/images/png/about-hero.png';
 import classes from './Hero.module.css';
 
 const Hero = () => {
@@ -14,14 +16,20 @@ const Hero = () => {
                             independent thinkers.
                         </p>
                         <p>
-                            This is why we started PrepBox -to fulfil fulfill our mission to build confidence and 
-                            first-principled thinking in children.
+                            This is why we started PrepBox -to fulfil fulfill our mission to build
+                            confidence and first-principled thinking in children.
                         </p>
                     </div>
 
                     <div className={classes['hero__content-image']}>
                         <div className={classes['hero__image']}>
-                            <img src={HeroImage} alt='PrepBox Founders' />
+                            <LazyLoadImage
+                                src={HeroImage}
+                                alt='PrepBox Founders'
+                                width='446'
+                                height='342'
+                                effect='blur'
+                            />
                         </div>
                     </div>
                 </div>

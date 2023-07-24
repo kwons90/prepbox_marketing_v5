@@ -1,6 +1,9 @@
-import Instagram from './../assets/images/instagram.svg';
-import Youtube from './../assets/images/youtube.svg';
-import Linkedin from './../assets/images/linkedin.svg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import Instagram from './../assets/icons/instagram.png';
+import Youtube from './../assets/icons/youtube.png';
+import Linkedin from './../assets/icons/linkedin.png';
+
 import classes from './Footer.module.css';
 
 const Footer = () => {
@@ -24,7 +27,13 @@ const Footer = () => {
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    <img src={Instagram} alt='Instagram icon' />
+                                    <LazyLoadImage
+                                        src={Instagram}
+                                        width='24'
+                                        height='25'
+                                        alt='Instagram Logo'
+                                        effect='blur'
+                                    />
                                 </a>
                             </li>
                             <li>
@@ -33,7 +42,13 @@ const Footer = () => {
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    <img src={Youtube} alt='Instagram icon' />
+                                    <LazyLoadImage
+                                        src={Youtube}
+                                        width='35'
+                                        height='24'
+                                        alt='Youtube Logo'
+                                        effect='blur'
+                                    />
                                 </a>
                             </li>
                             <li>
@@ -42,7 +57,13 @@ const Footer = () => {
                                     target='_blank'
                                     rel='noreferrer'
                                 >
-                                    <img src={Linkedin} alt='Instagram icon' />
+                                    <LazyLoadImage
+                                        src={Linkedin}
+                                        width='24'
+                                        height='23'
+                                        alt='Youtube Logo'
+                                        effect='blur'
+                                    />
                                 </a>
                             </li>
                         </ul>
