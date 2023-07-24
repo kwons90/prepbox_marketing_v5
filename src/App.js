@@ -6,6 +6,7 @@ import Loader from './components/elements/loader';
 import NotFound from './pages/NotFound';
 
 const HomePage = React.lazy(() => import('./pages/Home'));
+const HomePageJon = React.lazy(() => import('./pages/Home_Jon'));
 const TutorPage = React.lazy(() => import('./pages/Tutor'));
 const BlogPage = React.lazy(() => import('./pages/Blog'));
 const BlogPostPage = React.lazy(() => import('./pages/BlogPost'));
@@ -45,6 +46,14 @@ const router = createBrowserRouter([
                 element: (
                     <Suspense fallback={<Loader />}>
                         <BlogPostPage />
+                    </Suspense>
+                ),
+            },
+            {
+                path: 'signups',
+                element: (
+                    <Suspense fallback={<Loader />}>
+                        <HomePageJon />
                     </Suspense>
                 ),
             },
