@@ -26,13 +26,13 @@ const Footer = () => {
                                     href='https://www.instagram.com/prepboxmath'
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='Prepbox Instagram Page'
                                 >
                                     <LazyLoadImage
                                         src={Instagram}
                                         width='24'
                                         height='25'
                                         alt='Instagram Logo'
-                                        effect='blur'
                                     />
                                 </a>
                             </li>
@@ -41,13 +41,13 @@ const Footer = () => {
                                     href='https://www.youtube.com/watch?v=ih3hNg5Y-4c'
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='Prepbox Youtube Chanel'
                                 >
                                     <LazyLoadImage
                                         src={Youtube}
                                         width='35'
                                         height='24'
                                         alt='Youtube Logo'
-                                        effect='blur'
                                     />
                                 </a>
                             </li>
@@ -56,13 +56,13 @@ const Footer = () => {
                                     href='https://www.linkedin.com/company/prepboxmath'
                                     target='_blank'
                                     rel='noreferrer'
+                                    aria-label='Prepbox on Linkedin'
                                 >
                                     <LazyLoadImage
                                         src={Linkedin}
                                         width='24'
                                         height='23'
                                         alt='Youtube Logo'
-                                        effect='blur'
                                     />
                                 </a>
                             </li>
